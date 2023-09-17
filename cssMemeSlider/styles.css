@@ -6,8 +6,8 @@
 .slider {
   background-color: skyblue;
   overflow: hidden;
-  width: 540px;
-  height: 580px;
+  height: 36.25rem;
+  width: 33.75rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -23,8 +23,8 @@
 }
 
 .wrapper {
-  height: 500px;
   width: 500px;
+  height: 500px;
   margin-bottom: 20px;
 }
 
@@ -49,16 +49,17 @@ img {
 @media (max-width: 500px) {
   .navigation {
     right: 250px;
-    bottom: 45px;
+    bottom: 38px;
   }
 
   .slide p {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
-  .slider {
-    height: 600px;
-  }
+  /* .slider {
+    height: 35rem;
+    width: 31rem;
+  } */
 }
 
 .btn {
